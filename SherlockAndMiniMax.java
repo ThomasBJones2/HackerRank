@@ -41,7 +41,7 @@ public class Solution {
                 if(array[i] > P && array[i + 1] < Q)
                     distNext[i] = Math.abs(array[i + 1] - array[i]);
             }
-        }
+        }/*small changes*/
         
         
         int maxIndex = -1;
